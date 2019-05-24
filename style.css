@@ -1,301 +1,371 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
 .container {
   width: 90%;
-  margin:5%;
+  margin: 5%;
   display: flex;
   flex-direction: column;
 }
-
-
 .no-style {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
-
-
 .header {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
-
 #logo {
-  background-color: rgb(255, 255, 255);
-  width: 15%;
-  height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    height: 100%;
 }
-
-
 #header-content {
-  font-size: 80px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  background-color: rgb(255, 255, 255);
-  width: 85%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+    font-size: 400%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+   /* height: 100%;
+    */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #524f4f;
 }
-
-
-
-
+#logo-image {
+   /* position: absolute;
+    */
+    height: 100%;
+    width: auto;
+}
 .style1 {
-  height: 7px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    height: 7px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
-
-
-
-
 #navigation {
-  display: flex;
-  font-size: 1.3rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #747272;
-  background-color: rgb(255, 255, 255);
-  justify-content: space-around;
-  align-items: center;
-  height: 90px;
-  width: 100.5%;
-
-  /* position: -webkit-sticky; */
-  position: sticky;
-  top: 0;
+    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #747272;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100.5%;
+   /* position: -webkit-sticky;
+    */
+    position: sticky;
+    top: 0;
 }
-
-
-
-
 .main-news {
-  width: 100%;
-  height: 550px;
-  background-color: rgb(214, 228, 228);
-  background-image: url("/assets/images/dog.jpg");
-  background-size: 100% auto;
-  background-position: -20%;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  display: flex;
-  flex-direction: column-reverse;
-  border-style: solid;
-  border-width: 0.06vw;
-  border-color: #ece9e9;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(214, 228, 228);
+    background-image: url("/assets/images/dog.jpg");
+    background-size: 100% auto;
+    background-position: -20%;
+    background-repeat: no-repeat;
+   /* background-position: center;
+    */
+    display: flex;
+    flex-direction: column-reverse;
+    border-style: solid;
+    border-width: 0.06vw;
+    border-color: #ece9e9;
 }
-
 h2 {
-  margin: 0px;
+    margin: 0px;
 }
-
 .main-news > div {
-  width: 96%;
-  height: 23%;
-  padding: 2%;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.5vw;
-  background-color: rgb(255, 255, 255);
-  color: #c0bdbd;
+    width: 96%;
+    height: 23%;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    background-color: rgb(255, 255, 255);
+    color: #c0bdbd;
 }
-
-
-
-
 .top-news {
-  background-color: rgb(255, 255, 255);
-  width: 96%;
-  height: auto;
-  font-family: 'Roboto', sans-serif;
-  color: #616161;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 2%;
+    background-color: rgb(255, 255, 255);
+    width: 96%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
 }
-
 .top-news hr {
-  width: 100%;
-  border-color: rgb(255, 255, 255);
+    width: 100%;
+    border-color: rgb(255, 255, 255);
 }
-
 #top-news-header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 4vh;
-  width: 100%;
-  height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 180%;
+    width: 100%;
+    height: 3vw;
 }
-
 #top-news-header > div {
-  background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
-
 #top-news-content {
-  width: 100%;
-  font-size: 1.5vw;
+    width: 100%;
+    font-size: 1.5vw;
 }
-
-
-
-
 .table {
-  /* background-color: #8c8b8b; */
-  font-size: 17px;
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  height: auto;
-  font-size: 150%;
-  margin-top: 4%;
-  margin-bottom: 4%; 
+   /* background-color: #8c8b8b;
+    */
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: auto;
+    font-size: 150%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
-
 td, th {
-  /* background-color: #8c8b8b; */
-  text-align: center;
-  padding: 10px;
+   /* background-color: #8c8b8b;
+    */
+    text-align: center;
+    padding: 10px;
 }
-
 th {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #8c8b8b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #8c8b8b;
 }
-
 td {
-  color: #524f4f;
+    color: #524f4f;
 }
-
 #bold {
-  font-weight: 500;
-  color: #000000;
+    font-weight: 500;
+    color: #000000;
 }
-
-
-
-
-
 .weather {
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 4%
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4%; 
 }
-
 .weather-head {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  font-size: 170%;
-  font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-size: 170%;
+    font-weight: 300;
 }
-
 #current-weather {
-  font-size: 90%;
-  font-weight: 400;
+    font-size: 90%;
+    font-weight: 400;
 }
-
 .weather-today {
-  display: flex;
+    display: flex;
 }
-
 .weather-today div {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 #w-t-temp {
-  font-size: 5vw;
+    font-size: 5vw;
 }
-
 #w-t-unit {
-  font-size: 3vw;
+    font-size: 3vw;
 }
-
 .weather-forecast {
-  margin-top: 2%;
+    margin-top: 2%;
 }
-
 .weather-forecast > div {
-  display: flex;
-  justify-content: space-around;
-  font-family: 'Roboto', sans-serif;
-  font-size: 120%;
-  color: #524f4f;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    color: #524f4f;
 }
-
-
-
-
-
 .latest-news {
-  width: 100%;
-  height: auto;
-  background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  padding-bottom: 5%;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5%;
 }
-
 .latest-news-head {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 6%;
-  align-items: center;
-  border-bottom: 2px solid #dfdddd;
-  background-color: #ffffff;
-  font-size: 160%;
-  font-weight: 300;
-  color: #524f4f;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6%;
+    align-items: center;
+    border-bottom: 2px solid #dfdddd;
+    background-color: #ffffff;
+    font-size: 160%;
+    font-weight: 300;
+    color: #524f4f;
 }
-
 .latest-news-content {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 80%;
-  color: #616161
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    color: #616161 
 }
-
 .latest-news-content > div {
-  /* height: 20%; */
-  padding-bottom: 1%;
+   /* height: 20%;
+    */
+    padding-bottom: 1%;
 }
-
 .latest-news-content-head {
-  font-size: 150%;
-  font-weight: 500; 
+    font-size: 150%;
+    font-weight: 500;
 }
-
 .latest-news-content-img {
-  width: 14vw;
-  /* height: 10vh; */
-  float: left;
-  padding-right: 2%;
-  padding-bottom: 0.5%;
-
+    width: 14vw;
+   /* height: 10vh;
+    */
+    float: left;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
 }
-
 .latest-news-content-content {
-  font-size: 120%;
-  font-weight: 400;
+    font-size: 120%;
+    font-weight: 400;
 }
-
-
-
 .footer1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 120%;
-  color: #524f4f;
-  background-color: #ffffff;
-  display: flex;
-  height: 9vh;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  border-color: #d8d8d8;
-  border-top-style: solid;
-  border-top-width: 0.05vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    color: #524f4f;
+    background-color: #ffffff;
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-color: #d8d8d8;
+    border-top-style: solid;
+    border-top-width: 0.05vh;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+  .container {
+    width: 98%;
+    margin: 1%
+  }
+  
+  #navigation {
+    z-index: 1;
+    /* height: ; */
+
+  }
+
+  #navigation div {
+    margin-top: 4px 
+  }
+
+  #header-content {
+    font-size: 330%;
+    position: relative;
+    left: 50px;
+  }
+
+  .main-news {
+     width: 65%;
+     height: 31.2vh;
+  } 
+
+  .main-news > div {
+    background-color: #000000a9;
+    background-size: 100% 100%;
+    background-position: -20%;
+    font-weight: 500;
+    font-size: 2vw;
+    height: auto;
+  }
+
+  .weather {
+    position: absolute;
+    top: 26%;
+    left: 65%;
+    width: 35%;
+    padding: 5px
+    /* background-color: #747272 */
+  }
+
+  .weather div {
+    font-size: 100%;
+  }
+
+  #weather-image {
+    height: 90%;
+    width: 80%;
+  }
+
+  .weather-head div {
+    font-size: 150%;
+  }
+
+  #day {
+     width: 95%
+  }
+
+  #temp {
+    width: 98%;
+  }
+
+  #top-news-header {
+    font-size: 130%;
+    /* background-color: #747272; */
+  }
+
+  #top-news-content {
+    font-size: 110%
+  }
+
+  /* #table-head >th {
+    background-color: #547988;
+    font-weight: 500;
+  } */
+
+  table {
+    border-collapse: collapse;
+  }
+
+  tr > td,th {
+    font-size: 80%;
+    color: #505050;
+    font-weight: 400;
+  }
+  
+  th {
+    font-weight: 500;
+    color: white;
+    background-color: #7a92a7;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #e4e8eb
+  }
+
+  .latest-news-content-img {
+    padding-bottom: 0;
+    width: 30%;
+  }
+
+  .latest-news-content-head {
+    text-decoration: underline;
+  }
+
+}
+
+
+
+
