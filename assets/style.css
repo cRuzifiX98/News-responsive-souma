@@ -1,4 +1,3 @@
-
 /* CONTENTS TABLE
 
    1.CONTAINER
@@ -15,8 +14,7 @@
    
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
 
 /* CONTAINER */
 
@@ -25,301 +23,332 @@
   margin: 5%;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
-
 
 /* LINKS */
 
 .no-style {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-
 
 /* HEADER */
 
 .header {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #logo {
-    background-color: rgb(255, 255, 255);
-    width: 15%;
-    height: 100%;
+  background-color: rgb(255, 255, 255);
+  width: 15%;
+  height: 100%;
 }
 
 #header-content {
-    font-size: 400%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    background-color: rgb(255, 255, 255);
-    width: 70%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #524f4f;
+  font-size: 400%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #524f4f;
 }
 
 #logo-image {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 #navigation-dropdown {
   display: none;
 }
 
-.style1 {
-    height: 7px;
-    border: 0;
-    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+.hr-style {
+  height: 7px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
-
 
 /* NAVIGATION_BAR */
 
-#navigation {
-    display: flex;
-    font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #747272;
-    background-color: rgb(255, 255, 255);
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    width: 100.5%;
-    position: sticky;
-    top: 0;
+.navigation {
+  display: flex;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #747272;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  width: 100.5%;
+  position: sticky;
+  top: 0;
 }
-
 
 /* MAIN_NEWS */
 
 .main-news {
-    width: 100%;
-    height: 550px;
-    background-color: rgb(255, 255, 255);
-    background-image: url("/assets/images/dog.jpg");
-    background-size: 100% auto;
-    background-position: -20%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column-reverse;
-    border-style: solid;
-    border-width: 0.09vw;
-    border-color: #ece9e9;
-    border-top: 0;
+  width: 100%;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("/assets/images/dog.jpg");
+  background-size: 100% auto;
+  background-position: -20%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  border-style: solid;
+  border-width: 0.09vw;
+  border-color: #ece9e9;
+  border-top: 0;
 }
 
 h2 {
-    margin: 0px;
+  margin: 0px;
 }
 
 .main-news > div {
-    width: 96%;
-    height: 23%;
-    padding: 2%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.5vw;
-    background-color: rgb(255, 255, 255);
-    color: #a39f9f;
+  width: 96%;
+  height: 23%;
+  padding: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  background-color: rgb(255, 255, 255);
+  color: #a39f9f;
 }
-
 
 /* TOP_NEWS */
 
 .top-news {
-    background-color: rgb(255, 255, 255);
-    width: 96%;
-    height: auto;
-    font-family: 'Roboto', sans-serif;
-    color: #616161;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 2%;
+  background-color: rgb(255, 255, 255);
+  width: 96%;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  color: #616161;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
 }
 
 .top-news hr {
-    width: 100%;
-    border-color: rgb(255, 255, 255);
+  width: 100%;
+  border-color: rgb(255, 255, 255);
 }
 
 #top-news-header {
-    display: flex;
-    justify-content: space-between;
-    font-size: 180%;
-    width: 100%;
-    height: 3vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 180%;
+  width: 100%;
+  height: 3vw;
 }
 
 #top-news-header > div {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 #top-news-content {
-    width: 100%;
-    font-size: 1.5vw;
+  width: 100%;
+  font-size: 1.5vw;
 }
-
 
 /* SPORTS */
 
 .table {
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    height: auto;
-    font-size: 150%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: auto;
+  font-size: 150%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
-td, th {
-    text-align: center;
-    padding: 10px;
+td,
+th {
+  text-align: center;
+  padding: 10px;
 }
 
 th {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #8c8b8b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #8c8b8b;
 }
 
 td {
-    color: #524f4f;
+  color: #524f4f;
 }
 
-#bold {
-    font-weight: 500;
-    color: #000000;
+.bold {
+  font-weight: 500;
+  color: #000000;
 }
-
 
 /* WEATHER */
 
 .weather {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 4%; 
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  /* height: auto; */
 }
 .weather-head {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    font-size: 170%;
-    font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  font-size: 170%;
+  font-weight: 300;
 }
 #current-weather {
-    font-size: 90%;
-    font-weight: 400;
+  width: 100%;
+  font-size: 90%;
+  font-weight: 400;
 }
 .weather-today {
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 .weather-today div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+#w-t-img {
+  width: 100%;
+  height: auto;
 }
 #w-t-temp {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 #w-t-unit {
-    font-size: 3vw;
+  font-size: 3vw;
 }
 .weather-forecast {
-    margin-top: 2%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 .weather-forecast > div {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    font-size: 120%;
-    color: #524f4f;
+  width: 15%
+}
+.weather-image {
+  width: 100%;
 }
 
+/* .weather-forecast > div {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  color: #524f4f;
+} */
 
 /* LATEST_NEWS */
 
 .latest-news {
-    width: 100%;
-    height: auto;
-    background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5%;
 }
 .latest-news-head {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 6%;
-    align-items: center;
-    border-bottom: 2px solid #dfdddd;
-    background-color: #ffffff;
-    font-size: 160%;
-    font-weight: 300;
-    color: #524f4f;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 6%;
+  align-items: center;
+  border-bottom: 2px solid #dfdddd;
+  background-color: #ffffff;
+  font-size: 160%;
+  font-weight: 300;
+  color: #524f4f;
 }
 .latest-news-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 80%;
-    color: #616161 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  color: #616161;
 }
 .latest-news-content > div {
-    padding-bottom: 1%;
+  padding-bottom: 1%;
 }
 .latest-news-content-head {
-    font-size: 150%;
-    font-weight: 500;
+  font-size: 150%;
+  font-weight: 500;
 }
 .latest-news-content-img {
-    width: 14vw;
-    float: left;
-    padding-right: 2%;
-    padding-bottom: 0.5%;
+  width: 14vw;
+  float: left;
+  padding-right: 2%;
+  padding-bottom: 0.5%;
 }
 .latest-news-content-content {
-    font-size: 120%;
-    font-weight: 400;
+  font-size: 120%;
+  font-weight: 400;
 }
 .footer {
-    font-family: 'Roboto', sans-serif;
-    font-size: 120%;
-    color: #524f4f;
-    background-color: #ffffff;
-    display: flex;
-    height: 9vh;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    border-color: #d8d8d8;
-    border-top-style: solid;
-    border-top-width: 0.05vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  color: #524f4f;
+  background-color: #ffffff;
+  display: flex;
+  height: 9vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-color: #d8d8d8;
+  border-top-style: solid;
+  border-top-width: 0.05vh;
 }
-
-
-
 
 /* MEDIA_QUERY_TABLET */
 
 @media screen and (max-width: 900px) and (min-width: 500px) {
-
-  
-  
   /* CONTAINER */
 
   .container {
     width: 98%;
-    margin: 1%
+    margin: 1%;
   }
-  
 
- 
+  .mid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .weather {
+    width: 35%;
+  }
+
+  .main-news {
+    order: -1;
+  }
+  .weather {
+    order: -1;
+    width: 34.8%;
+  }
+  .weather-head {
+    padding-left: 3%;
+  }
+
+  .table {
+    width: 30em;
+  }
+
   /* HEADER */
 
   #header-content {
@@ -328,27 +357,22 @@ td {
     left: 50px;
   }
 
-
-
   /* NAVIGATION */
 
-  #navigation {
+  .navigation {
     z-index: 1;
-
   }
 
-  #navigation div {
-    margin-top: 4px 
+  .navigation div {
+    margin-top: 4px;
   }
-
-  
 
   /* MAIN NEWS */
 
   .main-news {
-     width: 65%;
-     height: 31.2vh;
-  } 
+    width: 65%;
+    height: 31.2vh;
+  }
 
   .main-news > div {
     background-color: #000000a9;
@@ -359,16 +383,15 @@ td {
     height: auto;
   }
 
-
   /* WEATHER SECTION */
 
-  .weather {
+  /* .weather {
     position: absolute;
     top: 26%;
     left: 65%;
     width: 35%;
     padding: 5px;
-  }
+  } */
 
   .weather div {
     font-size: 100%;
@@ -384,14 +407,12 @@ td {
   }
 
   #day {
-     width: 95%
+    width: 95%;
   }
 
   #temp {
     width: 98%;
   }
-
-
 
   /* TOP NEWS */
 
@@ -400,22 +421,23 @@ td {
   }
 
   #top-news-content {
-    font-size: 110%
+    font-size: 110%;
   }
-
 
   /* SPORTS SECTION */
 
   table {
     border-collapse: collapse;
+    /* width: 100%; */
   }
 
-  tr > td,th {
+  tr > td,
+  th {
     font-size: 80%;
     color: #505050;
     font-weight: 400;
   }
-  
+
   th {
     font-weight: 500;
     color: white;
@@ -423,10 +445,8 @@ td {
   }
 
   tr:nth-child(odd) {
-    background-color: #e4e8eb
+    background-color: #e4e8eb;
   }
-
-
 
   /* LATEST NEWS */
 
@@ -443,37 +463,26 @@ td {
     text-decoration: underline;
   }
 
-
   /* FOOTER */
 
   .footer {
     height: 4vh;
   }
-
 }
 
 /* MEDIA_QUERY_TABLET_END */
 
-
-
-
-
-
-
 /*  MEDIA_QUERY_MOBILE */
 
-@media (max-width: 500px) {
-
-  
+@media (max-width: 450px) {
   /* setting all default margins to 0 */
-  
+
   * {
-    margin: 0;
+    
     padding: 0;
   }
-  
 
-/* CONTAINER */
+  /* CONTAINER */
 
   .container {
     width: 117.45%;
@@ -481,22 +490,20 @@ td {
     margin-top: 0%;
     margin-left: -0.2%;
     /* background-color: #000000 */
-  }  
-
-
-
+  }
 
   /* HEADER */
 
   .header {
     height: 7vh;
     font-size: 45%;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 2%;
   }
-  
-  #navigation {
+
+  .navigation {
     display: none;
   }
 
@@ -506,41 +513,37 @@ td {
     color: #5a5858;
   }
 
-  .style1 {
+  .hr-style {
     display: none;
   }
-
-
 
   /* MAIN_NEWS */
 
   .main-news {
     height: 40vh;
+
   }
 
   .main-news > div {
     background-color: #000000b6;
+    height: auto;
     font-size: 70%;
     color: #c4c2c2;
   }
 
-
-
   /* TOP NEWS */
 
   #top-news-header {
-    font-size:20px;
-    padding-bottom: 5%
+    font-size: 20px;
+    padding-bottom: 5%;
   }
 
   #top-news-content p {
     padding: 4%;
     padding-left: 0;
     padding-right: 0;
-    font-size: 250%
+    font-size: 250%;
   }
-
-
 
   /* SPORTS SECTION */
 
@@ -552,7 +555,8 @@ td {
     border-collapse: collapse;
   }
 
-  tr > td,th {
+  tr > td,
+  th {
     font-size: 80%;
     color: #505050;
     font-weight: 400;
@@ -565,10 +569,8 @@ td {
   }
 
   tr:nth-child(odd) {
-    background-color: #e4e8eb
+    background-color: #e4e8eb;
   }
-
-
 
   /* WEATHER SECTION */
 
@@ -579,9 +581,9 @@ td {
   }
 
   .weather-today > div {
-    color: #413f3f
+    color: #413f3f;
   }
-  
+
   #w-t-temp {
     font-size: 2.2rem;
     font-weight: 500;
@@ -596,9 +598,6 @@ td {
     font-size: 70%;
   }
 
-
-
-
   /* LATEST NEWS SECTION */
 
   .latest-news > div {
@@ -607,7 +606,7 @@ td {
   }
 
   .latest-news-content {
-    padding:2%;
+    padding: 2%;
   }
 
   .latest-news-content-head {
@@ -624,12 +623,9 @@ td {
     padding-bottom: 0px;
   }
 
-
   /* FOOTER */
 
   .footer div {
     font-size: 70%;
   }
-
 }
-
